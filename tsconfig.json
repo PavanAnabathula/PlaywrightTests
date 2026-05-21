@@ -3,12 +3,13 @@
     "target": "ESNext",
     "module": "commonjs",
     "lib": ["ES2020", "DOM"],
+    "types": ["node"],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["tests"],
+  "include": ["tests", "playwright.config.ts"],
   "exclude": ["node_modules"]
 }
